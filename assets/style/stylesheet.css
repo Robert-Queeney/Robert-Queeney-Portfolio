@@ -1,0 +1,144 @@
+/* .navbar-brand{
+    background-color: aqua;  
+}
+
+.navbar-collapse{
+    background-color: chartreuse; 
+} */
+
+.navbar-brand, .navbar-light, .nav-link, .active{
+    color: #f9f9f9 ;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: .9em;
+    letter-spacing: .1em;
+}
+
+.nav-item {
+    float: right; 
+}
+
+.navbar-brand {
+    margin-right: 4em;
+}
+
+.nav-link {
+    margin: auto .5em;
+    
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #D62562;
+}
+
+.navbar-nav > .active {
+    border-bottom: #f9f9f9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.navbar-expand-lg {
+    background: linear-gradient(to right, #00120b, #35605a);
+    margin-bottom: 2em;
+}
+
+/* .navbar-toggler-icon {
+    background-image: url('../../assets/icons/hamburger.svg');
+    color: #f9f9f9;
+} */
+
+
+/* .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 2px;
+    background-color: #f9f9f9;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-3px, 3px);
+    transform: rotate(-45deg) translate(-3px, 3px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-9px, -8px);
+    transform: rotate(45deg) translate(-9px, -8px);
+} */
+
+/* homepage styling */
+.jumbotron-fluid {
+    z-index: -1;
+}
+
+.jumbotron{
+
+        position: relative;
+        background-image: url('../images/M-Skyline-Transparent-Background.png');
+        background-size: cover;
+        background-position: bottom;
+        color:#ffffff;
+        padding: 25em 5em 15em 5em;
+        margin-top: -15em;
+}
+
+.color-overlay {
+    position: absolute;
+    content:" ";
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #00120b, #35605a);
+    /* -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, .5)); */
+    opacity: 0.85;
+}
+
+.inner {
+    position: relative;
+    z-index: 2;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    text-align: center;
+}
+.process-card {
+    background: #f9f9f9;
+    padding: 7%;
+    box-shadow:0px 5px 10px 2px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    border-top: 10px;
+    border-top-style: solid;
+    border-image: linear-gradient(to right,#ff3e00, #d62562) 10;
+    margin-top: -7em;
+}
+
+
+/* portfolio styling */
+.card{
+   
+    width: 350px; 
+    box-shadow:0px 5px 10px 2px rgba(0,0,0,0.2);
+    
+}
+
+.card-body{
+    background-color: lightslategray;  
+}
+
+
+.card-img-top{
+    width: 100%; 
+
+}
+
+.img-container {
+    display: block; 
+    height: 350px; 
+    
+}
+
+
+
+
